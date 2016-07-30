@@ -1,7 +1,7 @@
 extends layout
 
 block content
-  nav#navigation.navbar.navbar-default.navbar-fixed-top
+  nav#navigation.navbar.navbar-default
       ul.nav.nav-tabs(role="tablist")
         li
           a(href="#a1") I
@@ -18,8 +18,8 @@ block content
         li
           a(href="#a7") VII
   header
-    h1.header-logo-h Семейная полиграфическая дизайн студия "Сова"
-    img.header-logo(src="/images/logo.png" alt="Сова & Люди" width="200px")
+    div: h1.header-logo-h Семейная полиграфическая дизайн студия "Сова"
+    .header-logo
   main
     div.second-block
       h2(id="a1") I

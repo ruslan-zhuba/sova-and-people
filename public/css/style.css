@@ -8,9 +8,9 @@ header {
   border: 1px solid #2b2a29; }
 
 .header-logo {
+  background-image: url("images/logo.png");
   width: 300px;
-  margin-left: auto;
-  margin-right: auto; }
+  height: 300px; }
 
 .header-logo-h {
   margin: 0px; }
@@ -30,5 +30,3 @@ li {
 .second-block {
   border: 0px solid #2b2a29;
   background: url("/images/patern.png") repeat; }
-
-/*# sourceMappingURL=style.css.map */
