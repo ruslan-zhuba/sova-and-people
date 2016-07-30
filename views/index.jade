@@ -1,0 +1,79 @@
+extends layout
+
+block content
+  header
+    h1.header-logo-h Семейная полиграфическая дизайн студия "Сова"
+    img.header-logo(src="/images/logo.png" alt="Сова & Люди" width="200px")
+  nav.nav
+      ul
+        li
+          a(href="#a1") I
+        li
+          a(href="#a2") II
+        li
+          a(href="#a3") III
+        li
+          a(href="#a4") IV
+        li
+          a(href="#a5") V
+        li
+          a(href="#a6") VI
+        li
+          a(href="#a7") VII
+  main
+    div.second-block
+      h2(id="a1") I
+      figure
+        figcaption Пожалуй, всем известна эта схема
+        img(src="/images/diagram-1.png" alt="Диаграмма 1" width="300px" )
+        figure
+        figcaption И это правда, но как бы вам понравилось такое?
+        img(src="/images/diagram-2.png" alt="Диаграмма 2" width="300px" )
+    div
+      h2(id="a2") II
+      h4 На что идут ваши деньги при обращении в рекламное агентство и крупную дизайн студию?
+      figure
+        img(src="/images/pic1.png" alt="Куда уходят деньги" width="500px")
+        figcaption Деньги на ... идут "из кармана владельца"..но туда-то их положили вы
+        p 1
+        p 2
+        p 3
+        p 4
+        p 5
+        p 6
+        p 7
+    div
+      h3(id="a3") III
+      h4 Почему мы можем позволить себе выполнять ваши проекты по выгодным для вас ценам?
+      figure
+        figcaption Мы в домике!
+        figcaption Работая на дому, мы не тратимся на аренду рабочего помещения; не трптим денег на и времени на дорогу до рабочих мест.
+        img(src="/images/img2.png" alt="Мы в домике!" width="200px")
+      figure
+        figcaption Мы — команда!
+        figcaption Работая над проектами вместе или взаимозаменяемо, мы экономим своё время , а значит — ваши деньги.
+        img(src="/images/img3.png" alt="Мы — команда!" width="200px")
+      figure
+        figcaption Мы самодостаточны!
+        figcaption Мы сами занимаемся продвижением студии и поиском заказов. Нам не нужно платить проценты посредникам и менеджерам.
+        img(src="/images/img4.png" alt="Мы самодостаточны!" width="200px")
+    div
+      h3(id="a4") IV
+      div
+    div
+      h3(id="a5") V
+      div дерево предложений
+    div
+      h3(id="a6") VI
+      div слайдер
+    div
+      h3(id="a7") VII
+      form
+        label(for="name")
+          input(id="name" type="text")
+        label(for="email")
+          input(id="email" type="email")
+        label(for="message")
+          textarea(id="message")
+        input(type="submit")
+  footer

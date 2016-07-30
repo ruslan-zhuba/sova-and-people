@@ -1,0 +1,6 @@
+
+.idea/modules.xml
+.idea/sova-and-people.iml
+.idea/workspace.xml
+node_modules/
+/public/bower_components/
